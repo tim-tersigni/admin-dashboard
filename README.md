@@ -1,2 +1,2 @@
 # admin-dashboard
-Example dashobard design
+Example dashboard design
