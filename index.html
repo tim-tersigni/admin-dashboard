@@ -1,16 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Admin Dashboard</title>
-  <link rel="stylesheet" href="Styles/reset.css">
-  <link rel="stylesheet" href="Styles/style.css">
-</head>
-<body>
-  <div class="sidebar"></div>
-  <header></header>
-  <main></main>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="Styles/reset.css" />
+    <link rel="stylesheet" href="Styles/style.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <img src="Images/logo.png" alt="The Admin Dashboard logo." />
+      <p>Dashboard</p>
+      <ul class="site-links">
+        <li class="site-link-container">
+          <img src="" alt="" class="site-link-icon" /><a
+            href=""
+            class="site-link"
+          >Home</a>
+        </li>
+        <li class="site-link-container">
+          <img src="" alt="" class="site-link-icon" /><a
+            href=""
+            class="site-link"
+          >Profile</a>
+        </li>
+        <li class="site-link-container">
+          <img src="" alt="" class="site-link-icon" /><a
+            href=""
+            class="site-link"
+          >Messages</a>
+        </li>
+        <li class="site-link-container">
+          <img src="" alt="" class="site-link-icon" /><a
+            href=""
+            class="site-link"
+          >History</a>
+        </li>
+        <li class="site-link-container">
+          <img src="" alt="" class="site-link-icon" /><a
+            href=""
+            class="site-link"
+          >Tasks</a>
+        </li>
+        <li class="site-link-container">
+          <img src="" alt="" class="site-link-icon" /><a
+            href=""
+            class="site-link"
+          >Communities</a>
+        </li>
+      </ul>
+
+      <ul class="info-links">
+        <li class="info-link-container">
+          <img src="" alt="" class="info-link-icon" /><a
+            href=""
+            class="info-link"
+          >Settings</a>
+        </li>
+        <li class="info-link-container">
+          <img src="" alt="" class="info-link-icon" /><a
+            href=""
+            class="info-link"
+          >Support</a>
+        </li>
+        <li class="info-link-container">
+          <img src="" alt="" class="info-link-icon" /><a
+            href=""
+            class="info-link"
+          >Privacy</a>
+        </li>
+      </ul>
+    </div>
+    <header>
+      <div class="top-header-container">
+        <div class="icon-wrapper search-icon-wrapper">
+          <img src="./images/search-icon.png" alt="magnifying glass search icon" class="icon search-icon">
+        </div>
+        <input class="search-bar" type="text">
+        <div class="icon-wrapper notification-icon-wrapper">
+          <img src="./images/notification-icon.png" alt="ringing bell notification icon" class="icon notification-icon">
+        </div>
+      </div>
+      <div class="bottom-header-container">
+        <div class="profile-picture-wrapper">
+          <img src="./images/profile-picture.png" alt="your profile picture" class="profile-picture">
+        </div>
+      </div>
+      <div class="greeting-container">
+        <p class="greeting">Hi there,</p>
+        <p class="user-name">User (@user)</p>
+      </div>
+      <div class="header-buttons-container">
+        <button class="new-button" type="button">New</button>
+        <button class="upload-button" type="button">Upload</button>
+        <button class="share-button" type="button">Share</button>
+      </div>
+    </header>
+    <main></main>
+  </body>
 </html>
