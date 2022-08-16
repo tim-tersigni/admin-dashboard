@@ -8,8 +8,8 @@ body {
 }
 
 .h1 {
-  font-size: 24pt;
-  font-weight: 600;
+  font-size: 20pt;
+  font-weight: bold;
 }
 
 header {
@@ -19,6 +19,8 @@ header {
 }
 
 .sidebar {
+  font-size: 14pt;
+  font-weight: 600;
   width: 40vw;
   max-width: 16rem;
   height: 100vh;
@@ -31,4 +33,30 @@ header {
   display: flex;
   width: 100%;
   background-color: orange;
+}
+
+.site-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.site-link {
+  color: white;
+}
+
+.info-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.info-link {
+  color: white;
+}
+
+a {
+  text-decoration: none;
 }
