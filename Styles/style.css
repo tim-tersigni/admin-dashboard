@@ -35,6 +35,10 @@ header {
   background-color: orange;
 }
 
+.site-link-icon {
+  height: 1.1em;
+}
+
 .site-links {
   display: flex;
   flex-direction: column;
@@ -42,8 +46,18 @@ header {
   margin-top: 3rem;
 }
 
+.site-link-container {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
 .site-link {
   color: white;
+}
+
+.info-link-icon {
+  height: 1.1em;
 }
 
 .info-links {
@@ -51,6 +65,12 @@ header {
   flex-direction: column;
   gap: 1rem;
   margin-top: 3rem;
+}
+
+.info-link-container {
+  display: flex;
+  align-items: center;
+  gap: 1em;
 }
 
 .info-link {
