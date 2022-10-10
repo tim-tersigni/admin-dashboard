@@ -15,7 +15,7 @@ body {
 header {
   width: 100%;
   height: 200px;
-  background-color: #94a3b8;
+  background-color: #ffffff;
 }
 
 .sidebar {
@@ -31,15 +31,14 @@ header {
 
 .site-title-container {
   display: flex;
-  align-items: center;
-  justify-content: bottom;
+  align-items: flex-end;
   width: 100%;
 }
 
 .site-logo {
-  height: 2.2em;
+  height: 1.5em;
   margin: 0;
-  margin-right: 0.3em;
+  margin-right: 0.5em;
 }
 
 .site-link-icon {
@@ -59,7 +58,7 @@ header {
   gap: 1em;
 }
 
-.site-link {
+site-link {
   color: white;
 }
 
@@ -93,10 +92,41 @@ a {
   fill: #3e343a;
 }
 
+.top-profile-picture {
+  height: 2.5em;
+  border-radius: 50%;
+}
+
 header {
-  padding: 1em 2em 1em 2em;
+  padding: 0.5em 2em 0.5em 2em;
 }
 
 .top-header-container {
   display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  margin: 0px;
+}
+
+.search-container {
+  align-self: left;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.search-bar {
+  width: 100%;
+  border: 0px;
+  background: rgb(231, 235, 236);
+  border-radius: 1.75em;
+  height: 1.75em;
+}
+
+.top-profile-container {
+  justify-self: right;
+  display: flex;
+  align-items: center;
+  gap: 1em;
 }
