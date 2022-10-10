@@ -58,14 +58,17 @@ header {
   gap: 1em;
 }
 
-site-link {
+.site-link {
   color: white;
+}
+
+.site-link:visited {
+  color: #ffffff;
 }
 
 .info-link-icon {
   height: 1.1em;
 }
-
 .info-links {
   display: flex;
   flex-direction: column;
